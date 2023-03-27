@@ -13,7 +13,7 @@ By using Docker `privileged` and `host` network, the container will update the d
 This Docker image uses the following variables, and can be easily managed via `env` file:
 ```
 VPN_SERVER_IP=your_vpn_server_public_ip
-VPN_PSEC_PSK=your_ipsec_pre_shared_key
+VPN_IPSEC_PSK=your_ipsec_pre_shared_key
 VPN_USER=your_vpn_username
 VPN_PASSWORD=your_vpn_password)
 VERBOSE=true|false
